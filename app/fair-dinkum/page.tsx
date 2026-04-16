@@ -142,54 +142,27 @@ export default function FairDinkumLanding() {
 
       {/* The Solution: Digital Ute */}
       <section id="solution" className="py-24">
+        {/* ... (existing content) */}
+      </section>
+
+      {/* Video Demo Section */}
+      <section className="bg-neutral-900 py-24 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-16 grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
-            <div>
-              <h2 className="mb-6 text-4xl font-black text-[#333333]">The Digital Ute</h2>
-              <p className="mb-8 text-lg text-neutral-600">
-                Organize your digital toolbox. No fluff, just the essentials you need to turn your phone into a high-performance admin machine.
-              </p>
-              <ul className="space-y-4">
-                {[
-                  "Voice Capture: The 'Natter' into data.",
-                  "Document Scanner: The 'Eyes' for every receipt.",
-                  "AI Interface: The 'Brain' that turns notes into quotes."
-                ].map((text, i) => (
-                  <li key={i} className="flex items-center gap-3 font-medium text-neutral-700">
-                    <CheckCircle2 className="text-[#4F7942]" />
-                    {text}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="rounded-3xl bg-[#333333] p-12 text-white">
-              <h3 className="mb-8 text-center text-xl font-bold uppercase tracking-widest text-[#FFC000]">Workflow Pipeline</h3>
-              <div className="flex flex-col gap-6">
-                <div className="flex items-center gap-4 rounded-xl border border-white/20 bg-white/10 p-4">
-                  <div className="rounded-lg bg-[#A3432B] p-2 text-white"><Smartphone size={24} /></div>
-                  <div>
-                    <div className="text-sm font-bold uppercase text-white/60">Step 1: Capture</div>
-                    <div className="font-bold">Record a 60-second "Natter"</div>
-                  </div>
-                </div>
-                <div className="mx-auto text-[#FFC000]"><ArrowRight className="rotate-90" /></div>
-                <div className="flex items-center gap-4 rounded-xl border border-white/20 bg-white/10 p-4 text-[#FFC000]">
-                  <div className="rounded-lg bg-[#4F7942] p-2 text-white"><Cpu size={24} /></div>
-                  <div>
-                    <div className="text-sm font-bold uppercase text-white/40">Step 2: Process</div>
-                    <div className="font-bold">AI Engine (The Brain) Extracts Data</div>
-                  </div>
-                </div>
-                <div className="mx-auto text-[#FFC000]"><ArrowRight className="rotate-90" /></div>
-                <div className="flex items-center gap-4 rounded-xl border border-white/20 bg-white/10 p-4">
-                  <div className="rounded-lg bg-white p-2 text-[#333333]"><FileText size={24} /></div>
-                  <div>
-                    <div className="text-sm font-bold uppercase text-white/60">Step 3: Deliver</div>
-                    <div className="font-bold">Itemized Quote in the Client's Inbox</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="mb-12 text-center">
+            <h2 className="mb-4 text-3xl font-bold text-[#FFC000] lg:text-4xl">Watch the Sovereign Workflow in Action</h2>
+            <p className="mx-auto max-w-2xl text-lg text-white/60">
+              See how we use the 14-agent workforce to automate everything from research to revenue.
+            </p>
+          </div>
+          <div className="relative mx-auto max-w-4xl overflow-hidden rounded-3xl border-8 border-white/5 bg-black shadow-2xl shadow-[#FFC000]/10">
+            <video 
+              controls 
+              className="h-full w-full"
+              poster="/-fair-dinkum-publishing-/media/videos/sovereign_1776306268588.mp4"
+            >
+              <source src="/-fair-dinkum-publishing-/media/videos/sovereign_1776306268588.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </section>
