@@ -61,6 +61,7 @@ export default function FairGoAdaptive() {
           <div className="hidden items-center gap-8 md:flex">
             <a href="#vision" className="text-lg font-bold hover:text-[#A3432B]">Our Vision</a>
             <a href="#products" className="text-lg font-bold hover:text-[#A3432B]">Products</a>
+            <a href="/blog/" className="text-lg font-bold hover:text-[#A3432B]">Blog</a>
             <button className="rounded-xl bg-[#333333] px-6 py-3 text-lg font-bold text-white transition-all hover:bg-black">
               Call Support
             </button>
