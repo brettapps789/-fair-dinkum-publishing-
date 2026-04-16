@@ -1,10 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   output: 'export',
-  // Replace '-fair-dinkum-publishing-' with your repo name if it changes
   basePath: '/-fair-dinkum-publishing-', 
+  trailingSlash: true, // Crucial for GitHub Pages sub-page routing
   images: {
     unoptimized: true,
   },
