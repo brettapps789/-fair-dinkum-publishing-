@@ -45,7 +45,7 @@ export default function FairDinkumLanding() {
           <div className="hidden md:flex md:items-center md:gap-8">
             <a href="#problem" className="text-sm font-medium text-neutral-600 hover:text-[#A3432B]">The Problem</a>
             <a href="#solution" className="text-sm font-medium text-neutral-600 hover:text-[#A3432B]">The Solution</a>
-            <a href="#pipeline" className="text-sm font-medium text-neutral-600 hover:text-[#A3432B]">The Tech</a>
+            <a href="/adaptive/" className="text-sm font-bold text-[#A3432B]">Adaptive Gear</a>
             <a href="/fair-dinkum/store" className="rounded-full bg-[#4F7942] px-6 py-2 text-sm font-semibold text-white transition-all hover:bg-[#3d5d33] hover:shadow-lg text-center">
               Snag the Ebook
             </a>
